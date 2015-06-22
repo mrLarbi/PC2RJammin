@@ -1,0 +1,19 @@
+Server side.
+
+The server side is implemented using Java 8.
+
+1. Creating  new Project
+Create a new Java Project in Eclipse. Right click on the created project and choose Import.
+From the list provided click the option Archive file; It should be under the General sub-menu. 
+
+2. Compiling the project. 
+We use ant scripts to compile our server. To do so. Open your command terminal. Move to your 
+eclipse's workspace and eventually to the newly created Java Project. 
+
+The command "ant compile" will compile the server.
+To execute the server use the command "ant srun".
+
+NB: Make sure to have the ant software installed. Otherwise sources can be compiled using java commands
+    using the terminal console. Do not forget command line arguments when running the server else default ones
+    will be used.  	
+
